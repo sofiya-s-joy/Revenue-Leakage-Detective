@@ -1,0 +1,84 @@
+DATA REQUIREMENTS DOCUMENT
+
+PROJECT NAME: REBVENUE LEAKAGE DETECTIVE- SALWS OPERATION & CRM PERFORMANCE INTELLLIGENCE
+
+COMPANY: NEXORA SOLUTIONS
+VERSION:1.0
+PREPARED BY: BUSINESS ANALYST
+
+1. PROJECT OVERVIEW
+Nexora solutions is a fictional B2B Software & services company
+
+The company manages potential customers, existing customers, sales opportunities and customer relationships through its sales team and CRM processes.
+
+However, the company is experiencing potential revenue leakage due to missed customer follows-ups, inactive sales, opportunities, poor lead conversion, and weaknesses in CRM tracking
+
+This project aims to investigate these problems using business data and identify their root causes.
+
+2. PURPOSE OF THIS DOCUMENT
+The purpose of this document is to identify and define the information required to investigate revenue leakage
+
+It will help us understand what data needs to be collected, why each data field is important, and how the information will be used during analysis.
+
+The collected data will support business investigation, performance measurement, identification of operational problems, and development of practical recommendations.
+
+3. PROJECT OBJECTIVE
+The main objective is to identify where potential revenue is begin lost, understand why these problems occur, measures their business impact, and recommend improvements to sales operations  and CRM processes
+
+The project will focus o:
+
+Lead conversion performance
+Opportunity stage progression
+Customer follow-up activities
+Opportunity aging
+Expected and actual close reliability
+Customer renewals
+Sales forecasting reliability
+CRM data quality and process gaps
+
+4. EXPECTED OUTCOME
+By the end of this project, we aim to:
+
+Identify major sales process inefficiencies.
+Measures important business KPIs.
+Identify the root cause of revenue leakage.
+Analyze business data using Excel, SQL, and Python.
+Evaluate CRM process improvements.
+Build meaningful power BI dashboards.
+Recommend measures business solutions.
+Present the findings in a final management report
+
+5. DATA DICTIONARY
+The data dictionary defines he fields required for the project's business analysis. it expands the purpose, meaning and expected data of each field
+ 
+A OPPURTUNITY INFORMATION
+
+1.Opportunity_ID Description: Unique identification number assigned to each sales opportunity. Data Type: Text purpose: To identify and track individual opportunities
+
+2. Lead_ID Description: Unique identification number assigned to a potential customer. Data Type: Text Purpose: To connect leads with their corresponding opportunities.
+
+3. Sales_Representation: Name or identifier of the employee responsible for managing the opportunity. Data Type: Text Purpose: To identify opportunity ownership.
+
+4. Opportunity_stage Description: Current stage of the sales opportunity. Data Type: Text Purpose: To monitor sales progression.
+
+5. Opportunity_Amount Description: Estimated monetary value of the opportunity. Data Type: Decimal Purpose: To calculate potential sales revenue.
+
+6. Opportunity_Status Description: Current outcome or status of he opportunity. Data Type: Text Purpose: To distinguish open, won, and lost opportunities.
+
+B. FOOLOW-UP INFORMATION
+
+7. Last_Activity_Data Description: date of most recent recorded customer interaction. Data type: date purpose: to identify inactive opportunities.
+
+8. Next_Followup_Date Description: scheduled date for the next customer follow-up. Data type: Date purpose: to identify upcoming and overdue follow-ups.
+
+9. Expected_Close_Date description: date on which the opportunity is expected to close. date type: date purpose: to monitor closing timelines and delays.
+
+10. Actual_Close_Date description: date on which the opportunity was closed. data type: date purpose: to compare expected and actual closing performance.
+
+C. LEAD INFORMATION
+
+11. Lead_Source description: channel through which the lead was generated. data type: text purpose: to evaluate lead source performance.
+
+12. Lead_Creation_Date description: date on which the lead entered the CRM. Data type: date purpose: to measure lead aging and conversion timelines.
+
+13. Lead_Status dscription: current status of the lead. Data type: text purpose: to monitor lead progression and conversion.
