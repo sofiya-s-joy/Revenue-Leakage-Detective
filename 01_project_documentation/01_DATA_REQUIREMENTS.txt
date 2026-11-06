@@ -82,3 +82,24 @@ C. LEAD INFORMATION
 12. Lead_Creation_Date description: date on which the lead entered the CRM. Data type: date purpose: to measure lead aging and conversion timelines.
 
 13. Lead_Status dscription: current status of the lead. Data type: text purpose: to monitor lead progression and conversion.
+
+
+Preliminary Data Analysis – Opportunity Risk
+
+Reporting date: 31 October 2026  
+Dataset: Nexora Solutions – Synthetic Sales Opportunity Dataset
+
+ Preliminary findings
+
+1. Overdue follow-ups: 12 open opportunities have next follow-up dates earlier than 31 October 2026.
+2. Stale opportunities: 10 open opportunities have had no recorded activity for more than 30 days as of the reporting date.
+3. Overlapping risks: All 10 stale opportunities are also overdue for follow-up.
+4. Pipeline value at risk: ₹63.90 lakh is associated with the 12 open opportunities having overdue follow-ups.
+
+Business interpretation
+
+The findings indicate potential weaknesses in sales follow-up discipline and opportunity monitoring. Prolonged inactivity may increase the risk of missed customer engagement and unreliable sales forecasts.
+
+The ₹63.90 lakh represents potential open pipeline value, not confirmed lost revenue.
+
+Note: These are preliminary findings based on synthetic data created for this project. Further analysis is required to identify root causes and recommend improvements.
