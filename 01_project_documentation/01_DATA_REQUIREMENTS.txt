@@ -81,7 +81,8 @@ C. LEAD INFORMATION
 
 12. Lead_Creation_Date description: date on which the lead entered the CRM. Data type: date purpose: to measure lead aging and conversion timelines.
 
-13. Lead_Status dscription: current status of the lead. Data type: text purpose: to monitor lead progression and conversion.
+13. Lead_Status description: current status of the lead. Data type: text purpose: to monitor lead progression and conversion.
+
 
 
 Preliminary Data Analysis – Opportunity Risk

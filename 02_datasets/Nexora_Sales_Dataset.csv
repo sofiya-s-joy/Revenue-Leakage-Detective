@@ -1,1 +1,31 @@
 Opportunity_ID,Lead_ID,Sales_Representative,Opportunity_Stage,Opportunity_Amount,Opportunity_Status,Last_Activity_Date,Next_Followup_Date,Expected_Close_Date,Actual_Close_Date,Lead_Source,Lead_Creation_Date,Lead_Status
+OPP001,LEAD001,Asha,Qualification,250000,Open,2026-10-25,2026-11-08,2026-11-30,,Website,2026-09-12,Converted
+OPP002,LEAD002,Rahul,Proposal,450000,Open,2026-09-15,2026-09-22,2026-10-20,,Referral,2026-08-10,Converted
+OPP003,LEAD003,Priya,Closed Won,600000,Won,2026-10-12,,2026-10-15,2026-10-12,Website,2026-07-05,Converted
+OPP004,LEAD004,Arjun,Negotiation,800000,Open,2026-10-28,2026-11-05,2026-11-25,,LinkedIn,2026-09-01,Converted
+OPP005,LEAD005,Meera,Closed Lost,300000,Lost,2026-09-20,,2026-09-30,2026-09-20,Campaign,2026-07-18,Converted
+OPP006,LEAD006,Asha,Needs Analysis,350000,Open,2026-08-15,2026-08-25,2026-10-10,,Website,2026-07-22,Converted
+OPP007,LEAD007,Rahul,Negotiation,950000,Open,2026-10-30,2026-11-04,2026-12-10,,Referral,2026-09-14,Converted
+OPP008,LEAD008,Priya,Closed Won,500000,Won,2026-09-28,,2026-10-01,2026-09-28,Email,2026-06-11,Converted
+OPP009,LEAD009,Arjun,Proposal,700000,Open,2026-07-10,2026-07-18,2026-09-15,,Website,2026-06-20,Converted
+OPP010,LEAD010,Meera,Qualification,200000,Open,2026-10-20,2026-11-10,2026-12-20,,Campaign,2026-10-02,Converted
+OPP011,LEAD011,Asha,Proposal,550000,Open,2026-10-18,2026-10-25,2026-11-28,,Website,2026-08-05,Converted
+OPP012,LEAD012,Rahul,Closed Lost,400000,Lost,2026-10-05,,2026-10-10,2026-10-05,Cold Call,2026-07-19,Converted
+OPP013,LEAD013,Priya,Needs Analysis,320000,Open,2026-10-29,2026-11-06,2026-12-15,,Referral,2026-09-25,Converted
+OPP014,LEAD014,Arjun,Closed Won,1200000,Won,2026-10-22,,2026-10-25,2026-10-22,LinkedIn,2026-06-15,Converted
+OPP015,LEAD015,Meera,Qualification,180000,Open,2026-08-02,2026-08-10,2026-09-20,,Website,2026-07-01,Converted
+OPP016,LEAD016,Asha,Negotiation,750000,Open,2026-09-12,2026-09-20,2026-10-30,,Campaign,2026-08-12,Converted
+OPP017,LEAD017,Rahul,Closed Won,680000,Won,2026-10-27,,2026-10-30,2026-10-27,Referral,2026-07-28,Converted
+OPP018,LEAD018,Priya,Proposal,420000,Open,2026-07-25,2026-08-01,2026-09-30,,Email,2026-06-30,Converted
+OPP019,LEAD019,Arjun,Needs Analysis,290000,Open,2026-10-10,2026-11-12,2026-12-05,,Website,2026-09-18,Converted
+OPP020,LEAD020,Meera,Closed Lost,510000,Lost,2026-09-18,,2026-09-25,2026-09-18,Campaign,2026-07-09,Converted
+OPP021,LEAD021,Asha,Needs Analysis,280000,Open,2026-10-31,2026-11-07,2026-12-18,,Website,2026-10-05,Converted
+OPP022,LEAD022,Rahul,Proposal,620000,Open,2026-08-20,2026-08-28,2026-10-15,,Referral,2026-07-15,Converted
+OPP023,LEAD023,Priya,Closed Won,850000,Won,2026-10-15,,2026-10-18,2026-10-15,LinkedIn,2026-05-22,Converted
+OPP024,LEAD024,Arjun,Negotiation,1100000,Open,2026-10-30,2026-11-06,2026-11-20,,Campaign,2026-08-30,Converted
+OPP025,LEAD025,Meera,Qualification,240000,Open,2026-07-05,2026-07-12,2026-09-10,,Website,2026-06-25,Converted
+OPP026,LEAD026,Asha,Closed Lost,390000,Lost,2026-10-19,,2026-10-22,2026-10-19,Email,2026-08-01,Converted
+OPP027,LEAD027,Rahul,Needs Analysis,470000,Open,2026-09-28,2026-10-05,2026-11-25,,Cold Call,2026-09-02,Converted
+OPP028,LEAD028,Priya,Proposal,760000,Open,2026-10-02,2026-10-12,2026-11-30,,Referral,2026-08-18,Converted
+OPP029,LEAD029,Arjun,Closed Won,540000,Won,2026-09-25,,2026-09-28,2026-09-25,Website,2026-06-08,Converted
+OPP030,LEAD030,Meera,Negotiation,900000,Open,2026-07-18,2026-07-25,2026-09-30,,Campaign,2026-06-12,Converted
