@@ -104,3 +104,125 @@ The findings indicate potential weaknesses in sales follow-up discipline and opp
 The ₹63.90 lakh represents potential open pipeline value, not confirmed lost revenue.
 
 Note: These are preliminary findings based on synthetic data created for this project. Further analysis is required to identify root causes and recommend improvements.
+
+
+5. Lead Dataset and Conversion Analysis
+
+ 5.1 Lead Dataset Overview
+
+A separate lead-level dataset, `Nexora_Leads_Dataset`, was created to analyse lead generation, conversion performance and unconverted leads.
+
+- Total lead records: 50
+- Converted leads: 30
+- Unconverted leads: 20
+- Overall conversion rate: 60%
+- Reporting date: 31 October 2026
+
+The dataset contains the original 30 leads linked to the existing opportunity dataset and 20 additional fictional leads to represent unconverted records.
+
+ 5.2 Lead Dataset Data Dictionary
+
+| Field | Description |
+|---|---|
+| Lead_ID | Unique identifier for each lead |
+| Lead_Name | Lead contact name |
+| Company_Name | Associated company name |
+| Lead_Source | Channel through which the lead was generated |
+| Lead_Creation_Date | Date the lead was created |
+| Lead_Status | Current lead status |
+| Conversion_Date | Date the lead converted, where available |
+| Opportunity_ID | Linked opportunity identifier, where applicable |
+
+ 5.3 Dataset Validation Results
+
+The following checks were completed:
+
+- Confirmed 50 lead records.
+- Confirmed 30 Converted and 20 unconverted records.
+- Checked Lead_ID uniqueness: zero duplicates.
+- Checked Opportunity_ID uniqueness: zero duplicates among populated IDs.
+- Confirmed 30 populated Opportunity_ID values.
+- Confirmed no blank Lead_Source values.
+- Reconciled source-wise lead counts to 50 and converted counts to 30.
+- Standardised "Cold Calling" to "Cold Call" to maintain consistent source categorisation.
+
+All validation checks passed.
+
+ 5.4 Lead Source Conversion Analysis
+
+Nine lead sources were analysed.
+
+| Lead Source | Total Leads | Converted Leads | Conversion Rate |
+|---|---:|---:|---:|
+| Website | 14 | 10 | 71.43% |
+| LinkedIn | 6 | 3 | 50.00% |
+| Referral | 9 | 6 | 66.67% |
+| Email Campaign | 3 | 0 | 0.00% |
+| Campaign | 6 | 6 | 100.00% |
+| Email | 3 | 3 | 100.00% |
+| Cold Call | 4 | 2 | 50.00% |
+| Social Media | 3 | 0 | 0.00% |
+| Trade Show | 2 | 0 | 0.00% |
+| **Total** | **50** | **30** | **60.00%** |
+
+ Key Findings
+
+1. Website generated the highest lead volume, with 14 leads and 10 conversions.
+2. Referral generated 9 leads, of which 6 converted.
+3. Campaign and Email recorded 100% conversion rates, although their sample sizes were small.
+4. Email Campaign, Social Media and Trade Show recorded no conversions in this dataset.
+
+Business Recommendations
+
+- Continue monitoring Website and Referral because they provide both lead volume and reasonable conversion performance.
+- Investigate the factors contributing to Campaign and Email conversions.
+- Review lead quality, targeting, messaging and follow-up practices for sources with zero conversions.
+- Collect additional data before making marketing budget allocation decisions.
+
+5.5 Unconverted Lead Status Analysis
+
+The 20 unconverted leads were classified by their current status.
+
+| Lead Status | Total Leads | Share |
+|---|---:|---:|
+| New | 6 | 30% |
+| Contacted | 4 | 20% |
+| Qualified | 4 | 20% |
+| Nurturing | 4 | 20% |
+| Disqualified | 2 | 10% |
+| **Total** | **20** | **100%** |
+
+ Key Findings
+
+- New leads represent 30% of the unconverted group.
+- Contacted, Qualified and Nurturing leads each represent 20%.
+- Disqualified leads represent 10%.
+
+ Business Recommendations
+
+- Prioritise reviewing Qualified leads to identify conversion blockers.
+- Review follow-up activity and customer responses for Contacted leads.
+- Continue appropriate engagement with Nurturing leads.
+- Investigate why New leads have not progressed.
+- Record disqualification reasons to identify recurring lead-quality issues.
+
+5.6 Data Limitations and Assumptions
+
+1. The project uses fictional training data and does not represent actual Nexora customer or business records.
+2. The original opportunity dataset did not contain Lead_Name or Company_Name. These fields were added as fictional metadata.
+3. The additional 20 leads are synthetic records created to represent unconverted leads.
+4. Conversion_Date is left blank because a verified conversion date was not available in the source data.
+5. Opportunity_ID is intentionally blank for unconverted leads.
+6. Campaign, Email Campaign and Email are retained as separate source categories. They have not been merged.
+7. Conversion rates based on small sample sizes should be interpreted cautiously.
+8. The 60% overall conversion rate describes this constructed dataset and should not be treated as a real-world business benchmark.
+
+5.7 Files Created
+
+- `Nexora_Leads_Analysis.ods` – Contains the 50-lead dataset, Lead_Source_Analysis and Lead_Status_Analysis sheets.
+- `Nexora_Sales_Dataset.csv` – Original opportunity-related source dataset.
+- `Nexora_Sales_Dataset.ods` – Sales analysis workbook containing the summary, representative performance and dashboard.
+
+5.8 Project Progress
+
+Lead dataset creation, validation, lead-source conversion analysis and unconverted-lead status analysis have been completed. The analysis workbook has been committed and pushed to the project's GitHub repository.
