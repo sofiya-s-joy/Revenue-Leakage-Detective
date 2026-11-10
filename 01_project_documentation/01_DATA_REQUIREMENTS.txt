@@ -226,3 +226,52 @@ The 20 unconverted leads were classified by their current status.
 5.8 Project Progress
 
 Lead dataset creation, validation, lead-source conversion analysis and unconverted-lead status analysis have been completed. The analysis workbook has been committed and pushed to the project's GitHub repository.
+
+
+5.9 Python Analysis and Findings
+
+Tools Used:** Python 3.14.10, JupyterLab 4.6.5, Pandas 3.1.1
+
+Python was used to perform data validation, transformation, exploratory analysis and business-focused investigation on the Nexora sales dataset.
+
+1. Dataset Loading and Validation
+- Imported the sales dataset containing 30 opportunities and 13 columns using Pandas.
+- Checked dataset structure, data types and missing values.
+- Identified and validated missing dates based on opportunity status.
+- Converted relevant date columns into datetime format.
+- Confirmed 30 unique Opportunity IDs and zero duplicate records.
+
+2. Opportunity and Revenue Analysis
+- Open opportunities: 20, with an open pipeline of ₹105.80 lakh.
+- Closed-won opportunities: 6, generating ₹43.70 lakh.
+- Closed-lost opportunities: 4, with a recorded value of ₹16 lakh.
+- Closed-won rate: 60%.
+
+3. Revenue Leakage Risk Analysis
+- Overdue follow-up opportunities: 12, representing ₹63.90 lakh.
+- Stale opportunities: 10, representing ₹50.80 lakh.
+- Both overdue and stale: 10 opportunities.
+- Unique open opportunities with at least one risk flag: 12.
+- Overdue and stale values represent potentially at-risk pipeline, not confirmed lost revenue.
+
+4. Sales Performance and Pipeline Analysis
+- Analysed overdue opportunities by sales representative.
+- Evaluated open pipeline distribution across opportunity stages.
+- Identified 9 open opportunities with past expected close dates, representing ₹46.10 lakh.
+- Analysed the overlap between overdue follow-ups and past expected close dates.
+
+5. Priority Opportunity Investigation
+OPP030 was identified as the highest-value overdue opportunity in the analysis, with a value of ₹9 lakh.
+
+Recommended actions include investigating customer response delays, procurement or budget blockers, and updating the expected close date and forecast only after obtaining supporting evidence. The opportunity should not automatically be marked as lost.
+
+6. Final Validation and Deliverables
+- Confirmed 30 total records and 30 unique Opportunity IDs.
+- Confirmed the status distribution: 20 Open, 6 Won and 4 Lost.
+- Generated a Python KPI summary containing 14 metrics.
+- Exported the findings to `Nexora_Python_Findings.csv`.
+- Saved the analysis notebook as `Nexora_Python_Analysis.ipynb`.
+
+Both Python deliverables have been committed and pushed to the project's GitHub repository.
+
+Python analysis and findings export completed on 10 November 2026.
