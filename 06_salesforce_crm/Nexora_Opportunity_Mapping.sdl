@@ -1,0 +1,16 @@
+#Mapping values
+#Wed Nov 18 21:43:00 IST 2026
+Actual_Close_Date=Source_Actual_Close_Date__c
+Expected_Close_Date=CloseDate
+Last_Activity_Date=Source_Last_Activity_Date__c
+Lead_Creation_Date=Source_Lead_Creation_Date__c
+Lead_ID=Source_Lead_ID__c
+Lead_Source=Source_Lead_Source__c
+Lead_Status=Source_Lead_Status__c
+Name=Name
+Next_Followup_Date=Source_Next_Followup_Date__c
+Opportunity_Amount=Amount
+Opportunity_ID=Source_Opportunity_ID__c
+Opportunity_Stage=StageName
+Opportunity_Status=Source_Opportunity_Status__c
+Sales_Representative=Source_Sales_Representative__c
